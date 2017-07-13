@@ -44,4 +44,7 @@ fun main(args: Array<String>) {
 
     println("\nQuickSort:")
     test(generateRandomUniqueData(dataLength), ::quickSort)
+
+    println("\nInsertionSort:")
+    test(generateRandomUniqueData(dataLength), ::insertionSort)
 }
